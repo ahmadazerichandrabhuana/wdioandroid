@@ -48,3 +48,6 @@ This sample Test Automation only consists of 1 folder : `test`, and have 2 sub-f
    ```
 File `package.json` and `package-lock.json` contains dependencies for the project, which can be initialized using commmand `npm install`.
 File  `wdio.conf.js` is basic config file for wdio-based automation.
+
+## WebdriverIO Appium Documentation
+https://webdriver.io/docs/api/appium/
