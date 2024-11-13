@@ -4,7 +4,7 @@ This is a simple sample of Android Test Automation using WebdriverIO with Allure
 ## Requirements
 
 1. Install [VS Code](https://code.visualstudio.com/) or any Code Editor you're comfort with.
-2. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/).
+2. Install [JDK](https://www.oracle.com/java/technologies/downloads/).
 3. Install [Android Studio](https://developer.android.com/studio/install), and install Android SDK using Android Studio.
 4. Update JAVA_HOME and ANDROID_HOME to yout PATH file. There is no easy way to explain this. You can refer [here](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe) or Google it.
 5. Install [Allure Report](https://allurereport.org/docs/install/).
