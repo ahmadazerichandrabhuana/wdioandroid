@@ -7,12 +7,13 @@ This is a simple sample of Android Test Automation using WebdriverIO with Allure
 2. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/).
 3. Install [Android Studio](https://developer.android.com/studio/install), and install Android SDK using Android Studio.
 4. Update JAVA_HOME and ANDROID_HOME to yout PATH file. There is no easy way to explain this. You can refer [here](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe) or Google it.
-5. Install [NodeJS](https://nodejs.org/en/download/package-manager).
-6. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/) and install appium driver `uiautomator2`.
-7. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK, trouble shoot if any red "x" appears (you need to google it yourself).
-8. Install [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/), or add ADB installed from Android Studio into your PATH file.
-9. Download and install this [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases)(`.apk` file) into your Android Device (credit to [Wim Selles](https://github.com/wswebcreation)).
-10. Download and open this code repository on your local Code Editor and run this commands :
+5. Install [Allure Report](https://allurereport.org/docs/install/).
+6. Install [NodeJS](https://nodejs.org/en/download/package-manager).
+7. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/) and install appium driver `uiautomator2`.
+8. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK, trouble shoot if any red "x" appears (you need to google it yourself).
+9. Install [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/), or add ADB installed from Android Studio into your PATH file.
+10. Download and install this [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases)(`.apk` file) into your Android Device (credit to [Wim Selles](https://github.com/wswebcreation)).
+11. Download and open this code repository on your local Code Editor and run this commands :
     ```
     npm install
     ```
