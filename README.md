@@ -54,4 +54,5 @@ File  `wdio.conf.js` is basic config file for wdio-based automation.
 https://webdriver.io/docs/api/appium/
 
 ## Appium Documentation
-https://appium.readthedocs.io/en/latest/en/commands/mobile-command/
+- https://appium.readthedocs.io/en/latest/en/commands/mobile-command/
+- https://github.com/appium/appium-uiautomator2-driver/blob/master/docs/android-mobile-gestures.md
