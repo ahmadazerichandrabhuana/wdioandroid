@@ -55,4 +55,6 @@ https://webdriver.io/docs/api/appium/
 
 ## Appium Documentation
 - https://appium.readthedocs.io/en/latest/en/commands/mobile-command/
+
+## Specific Appium UIAutomator2 Documentation
 - https://github.com/appium/appium-uiautomator2-driver/blob/master/docs/android-mobile-gestures.md
