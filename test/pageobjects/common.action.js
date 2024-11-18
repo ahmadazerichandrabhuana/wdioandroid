@@ -15,80 +15,20 @@ export class CommonAction{
         allureReporter.endStep();
     }
 
-    async swipeUp(){
-        allureReporter.startStep('Swipe Up');
-        const startPercentage = 10;
-        const endPercentage = 90;
-        const anchorPercentage = 50;
-
-        const { width, height } = driver.getWindowSize();
-        const anchor = height * anchorPercentage / 100;
-        const startPoint = width * startPercentage / 100;
-        const endPoint = width * endPercentage / 100;
-        driver.touchPerform([
-        {
-            action: 'press',
-            options: {
-            x: startPoint,
-            y: anchor,
-            },
-        },
-        {
-            action: 'wait',
-            options: {
-            ms: 100,
-            },
-        },
-        {
-            action: 'moveTo',
-            options: {
-            x: endPoint,
-            y: anchor,
-            },
-        },
-        {
-            action: 'release',
-            options: {},
-        },
+    async scrollUp(){
+        allureReporter.startStep('Scroll Up Screen');
+        const screenSize = await driver.getWindowSize();
+        await driver.executeScript("mobile: scrollGesture", [
+            { direction: "up", left: screenSize.width * 0.5, top: screenSize.height * 0.5, width: screenSize.width * 0.9, height: screenSize.height * 0.9, percent: 0.25}
         ]);
         allureReporter.endStep();
     }
 
-    async swipeDown(){
-        allureReporter.startStep('Swipe Down');
-        const startPercentage = 90;
-        const endPercentage = 10;
-        const anchorPercentage = 50;
-
-        const { width, height } = driver.getWindowSize();
-        const anchor = height * anchorPercentage / 100;
-        const startPoint = width * startPercentage / 100;
-        const endPoint = width * endPercentage / 100;
-        driver.touchPerform([
-        {
-            action: 'press',
-            options: {
-            x: startPoint,
-            y: anchor,
-            },
-        },
-        {
-            action: 'wait',
-            options: {
-            ms: 100,
-            },
-        },
-        {
-            action: 'moveTo',
-            options: {
-            x: endPoint,
-            y: anchor,
-            },
-        },
-        {
-            action: 'release',
-            options: {},
-        },
+    async scrollDown(){
+        allureReporter.startStep('Scroll Down Screen');
+        const screenSize = await driver.getWindowSize();
+        await driver.executeScript("mobile: scrollGesture", [
+            { direction: "down", left: screenSize.width * 0.025, top: screenSize.height * 0.025, width: screenSize.width * 0.9, height: screenSize.height * 0.9, percent: 0.25}
         ]);
         allureReporter.endStep();
     }
