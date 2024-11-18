@@ -51,7 +51,7 @@ File `package.json` and `package-lock.json` contains dependencies for the projec
 File  `wdio.conf.js` is basic config file for wdio-based automation.
 
 ## WebdriverIO Appium Documentation
-https://webdriver.io/docs/api/appium/
+- https://webdriver.io/docs/api/appium/
 
 ## Appium Documentation
 - https://appium.readthedocs.io/en/latest/en/commands/mobile-command/
