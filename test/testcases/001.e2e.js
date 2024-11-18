@@ -8,5 +8,10 @@ describe('Simple test for Demo Apps 001', () => {
 
     it('As an Android user, I should be able to see page "Products" when first Open the Apps', async () => {
         await ProductsPage.verifyHeaderProductsOK();
+        // await CommonAction.scrollDown();
+        // await CommonAction.scrollDown();
+        // await CommonAction.scrollUp();
+        // await CommonAction.scrollUp();
+        // await ProductsPage.verifyHeaderProductsOK();
     });
 })
