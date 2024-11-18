@@ -38,6 +38,12 @@ This is a simple sample of Android Test Automation using WebdriverIO with Allure
    ```
    allure serve
    ```
+*  Troubleshoot Allure not recognized on PowerShell Windows :
+   - Use Command Prompt instead of PowerShell, or
+   - Run this command on PowerShell : 
+     ```
+     npm install -g allure-commandline --save-dev
+     ```
    
 
 ## Short Repository Explanation
