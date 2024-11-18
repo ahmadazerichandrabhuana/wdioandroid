@@ -15,6 +15,12 @@ export class CommonAction{
         allureReporter.endStep();
     }
 
+    async hideAndroidKeyboard(){
+        allureReporter.startStep('Hide Android Keyboard');
+        await driver.hideKeyboard();
+        allureReporter.endStep();
+    }
+
     async scrollUp(){
         allureReporter.startStep('Scroll Up Screen');
         const screenSize = await driver.getWindowSize();
