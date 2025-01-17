@@ -13,7 +13,7 @@ This is a simple sample of Android Test Automation using WebdriverIO with Allure
 8. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK, trouble shoot if any red "x" appears (you need to google it yourself).
 9. Install [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/), or add ADB installed from Android Studio into your PATH file.
 10. Download and install this [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases)(`.apk` file) into your Android Device (credit to [Wim Selles](https://github.com/wswebcreation)).
-11. Download and open this code repository on your local Code Editor and run this commands :
+11. Download and open this code repository on your local Code Editor and run this commands : 
     ```
     npm install
     ```
